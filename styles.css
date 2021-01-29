@@ -139,4 +139,77 @@ ul li ul li a {
 .padding-3 {
   padding: 0 1.4rem;
 }
+
+/********
+***Hero text
+********/
+.hero-text {
+  margin-left: 16rem;
+  margin-top: 12.2rem;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 6rem;
+  font-weight: 500;
+  line-height: 1;
+  position: relative;
+}
+
+.hero-text--left {
+  min-width: 35rem;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.hero-text--dash {
+  position: absolute;
+  top: 23%;
+  left: 32%;
+  content: "";
+  width: 6rem;
+  height: 1rem;
+  background-color: #FE5FE1;
+}
+
+.nav-secondary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: calc(100% - 300px);
+  margin: 0 auto;
+  margin-top: 35rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-secondary .left span {
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.nav-secondary .left span i {
+  font-size: 2rem;
+}
+
+.nav-secondary .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 12rem;
+}
+
+.nav-secondary .right span i {
+  font-size: 10rem;
+  padding-left: 2rem;
+}
 /*# sourceMappingURL=styles.css.map */
